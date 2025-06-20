@@ -10,7 +10,7 @@ const jarPath = path.join(__dirname, 'd2rsavegameparser-1.5.2.jar');
 java.classpath.push(jarPath);
 
 // Replace 'your.package.ClassName' with the actual class name containing parseFiles
-const ParserClass = java.import('your.package.ClassName');
+const ParserClass = java.import('io.github.paladijn.d2rsavegameparser.parser');
 
 app.use(cors());
 

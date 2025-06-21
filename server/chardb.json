@@ -1,0 +1,39 @@
+{
+  "characters": [
+    {
+      "name": "CharacterName1",
+      "level": 85,
+      "socketQuestAvailable": {
+        "normal": true,
+        "nightmare": true,
+        "hell": false
+      },
+      "items": [
+        {
+          "id": 1,
+          "name": "Shako",
+          "type": "Helmet",
+          "sockets": 2
+        }
+        
+      ]
+    },
+    {
+      "name": "CharacterName2",
+      "level": 70,
+      "socketQuestAvailable": {
+        "normal": false,
+        "nightmare": false,
+        "hell": true
+      },
+      "items": [
+        {
+          "id": 2,
+          "name": "The Oculus",
+          "type": "Weapon",
+          "sockets": 0
+        }   
+      ]
+    }
+  ]
+}
